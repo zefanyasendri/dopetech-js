@@ -1,0 +1,97 @@
+@font-face {
+	font-family: Furore;
+	src: url(../font/Furore.otf);
+}
+@font-face {
+	font-family: Fold;
+	src: url(../font/fold.otf);
+}
+body {
+	font-family: Trebuchet MS;
+	background-color: white;	
+	width: 100%;
+	margin:0 auto;
+	background-image: url("../images/background4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+.tulisan_login {
+	text-align:center;
+	text-transform:uppercase;
+	font-family: Furore;
+	font-size: 25px;
+	margin-top: 2px;
+	color: white;
+	border-bottom: 2px solid dodgerblue;
+}
+
+/*Pembungkus Kotak Form*/
+.kotak_login{
+	width: 35%;
+	background-color: rgba(0,0,0,0.7);
+	margin:80px auto;
+	padding: 30px 20px;
+	border-radius: 20px;
+	border: 2px solid dodgerblue;
+	box-shadow:  0 15px 25px rgba(0,0,0,0.5);
+}
+label {
+	font-size: 11pt;
+	color: white;
+}
+.daftar{
+	text-decoration: none;
+	color:black;
+	background-color: dodgerblue;
+	font-size: 13pt;
+	width: 100%;
+	border-radius: 5px;
+	padding: 12px 50px;
+	font-family: Fold;
+	border:2px solid black;
+}
+.daftar:hover{
+	border: 2px solid dodgerblue;
+	background-color: black;
+	color: dodgerblue;
+	transition: 0.8s;
+}
+.button {
+	margin: 0px 0px;
+	font-size: 12pt;
+	padding:0,3px 0 ;
+	width: 100%;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.btn-kembali {
+	background-color: red;
+	margin-top: -4%;
+	padding:10px 20px;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: Fold;
+	float: right;
+	border: 2px solid black;
+}
+.btn-kembali:hover {
+	transition: 0.8s;
+	background-color: black;
+	color: red;
+	border: 2px solid red;
+}
+a{
+	text-decoration: none;
+}
+.sudah{
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+.sudah:hover {
+	transition: 0.5s;
+	color: dodgerblue;
+}

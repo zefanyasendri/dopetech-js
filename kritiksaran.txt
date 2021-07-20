@@ -1,0 +1,59 @@
+Kritik dan Saran member :  <br> Nama : asdf/n Alamat : asdf/n Umur : sadfAlamat : asdfKritik dan Saran member 0: 
+Nama: asdf
+Alamat: asdf
+Umur: sadf
+Kritik dan Saran member 0: 
+Nama: asdf
+Alamat: asdf
+Umur: asdf
+Kritik dan Saran member 0: 
+Nama: sadf
+Alamat: asdf
+Umur: sadf
+
+Kritik dan Saran member 0: 
+Nama: Zefa
+Alamat: 123
+Umur: 22
+
+Kritik dan Saran 0: 
+Nama: Zefa
+Alamat: 
+Umur: zefa@gmail.com
+
+Kritik dan Saran
+Nama: hilbert
+Umur: ibe@purba.com
+Email: 
+Pesan: Webnya keren, aleluya
+
+Kritik dan Saran
+Nama: chris
+Umur: csd@gmail.com
+Email: 
+Pesan: web nya menarik, forum lengkap.
+
+Kritik dan Saran
+Nama: gilbert
+Umur: 24
+Email: gibe@gmail.com
+Pesan: wow menarik. konten lengkap
+
+Kritik dan Saran
+Nama: Calvin
+Umur: 77
+Email: calv@gmail.com
+Pesan: konten termantap
+
+Kritik dan Saran
+Nama: Zefanya
+Umur: 21
+Email: zefa@gmail.com
+Pesan: Web nya rapih, hanya kurang beberapa fitur
+
+Kritik dan Saran
+Nama: Shalom
+Umur: 12
+Email: shalom@gmail.com
+Pesan: Boleh Boleh, saya kasih A
+

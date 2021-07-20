@@ -1,0 +1,102 @@
+body {
+	font-family: Trebuchet MS;
+	background-color: black;
+	color: white;
+	width: 100%;
+	margin:0 auto;
+	background-image: url("../images/bglogin.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+@font-face {
+	font-family: Furore;
+	src: url(../font/Furore.otf);
+}
+@font-face {
+	font-family: Fold;
+	src: url(../font/fold.otf);
+}
+.tulisan_login {
+	text-align:center;
+	font-family: Furore;
+	text-transform:uppercase;
+	font-size: 30px;
+	margin-top: 0px;
+	color: white;
+	border-bottom: 1px solid dodgerblue;
+}
+
+
+/*Pembungkus Kotak Form*/
+.kotak_login{
+	width: 27%;
+	background-color: rgba(0,0,0,0.7);
+	margin:80px auto;
+	padding: 3% 2%;
+	border-radius: 20px;
+	border: 2px solid dodgerblue;
+	box-shadow:  0 15px 25px rgba(0,0,0,0.5);
+}
+
+label {
+	font-size: 11pt;
+	color: white;
+}
+.login{
+	text-decoration: none;
+	color:black;
+	background-color: dodgerblue;
+	font-size: 13pt;
+	width: auto;
+	padding: 3% 20%;
+	border-radius: 5px;
+	font-family: Fold;
+	border: 2px solid black;
+}
+.login:hover {
+	transition: 0.8s;
+	background-color: black;
+	color: dodgerblue;
+	border: 2px solid dodgerblue;
+}
+
+.button {
+	margin: 2px 0px;
+	font-size: 12pt;
+	padding: 3% 0%;
+	width: 100%;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.btn-daftar {
+	background-color: dodgerblue;
+	padding: 3% 20%;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: Fold;
+	border: 2px solid black;
+}
+.btn-kembali {
+	background-color: red;
+	padding: 3% 7.5%;
+	color: black;
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: Fold;
+	border: 2px solid black;
+}
+.btn-daftar:hover {
+	transition: 0.8s;
+	background-color: black;
+	color: dodgerblue;
+	border: 2px solid dodgerblue;
+}
+.btn-kembali:hover {
+	transition: 0.8s;
+	background-color: black;
+	color: red;
+	border: 2px solid red;
+}

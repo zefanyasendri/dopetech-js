@@ -1,0 +1,48 @@
+html{
+    --bg: #fcfcfc;
+    --bg-panel: white;
+    --bg-forum: dodgerblue;
+    --color-card: rgb(27, 26, 26);
+    --color-text: #757373;
+}
+body{
+    background-color: var(--bg);
+}
+p{
+    color: var(--color-text);
+}
+.dope{
+    color: var(--color-text);
+}
+.bg{
+    background-color: var(--bg-forum);
+    border: 5px double dodgerblue;
+}
+.card-body{
+    background-color: var(--bg);
+    color: var(--color-card);
+}
+.card-footer{
+    background-color: var(--bg);
+    color: var(--color-card);
+}
+.dope2{
+    color: var(--color-card);
+}
+.con-switch{
+    color: var(--color-card);
+}
+html[data-theme='dark'] {
+    --bg: #333333;
+    --bg-panel:#434343;
+    --bg-forum: #333333;
+    --color-card: white;
+    --color-text:#b5b5b5;
+}
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
+}

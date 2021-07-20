@@ -1,0 +1,145 @@
+body{
+	background-image: url(../image/gilss2.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	color:white;
+}
+header{
+	text-align:center;
+	margin:1% 0%
+}
+li{
+	display:inline;
+	list-style:none;
+	margin-right:5%;
+}	
+a{
+	text-decoration:none;
+	font-family:myFont;
+	font-size:20px;
+	color:white;
+	font-weight:bold;
+}
+#gold{
+	width:130px;
+	height:130px;
+	border-radius:50%;
+	padding:10% 
+}
+#margin{
+	border-radius:50%;
+	width:100%;
+	margin-left:30%;
+	margin-top:10%;
+}
+.link{
+	color:white;
+	font-family: myFont;
+	word-spacing:100px;
+	font-size:25px
+}
+#kiri{
+	float:left;
+	width:100%;
+	margin-top:2%;
+	
+}
+.combo{
+	border:10px double white;
+	width:250px;
+	height:250px;
+	margin:12% 12%;
+}
+.combo2{
+	text-align:center;
+}
+.combo3{
+	font-size:15px;
+	font-family:Verdana
+}
+.combo4{
+	font-size:10px;
+	font-family:Verdana;
+	color:gold
+}
+table{
+	border:2px solid white;
+	border-collapse:collapse;
+	padding:10px;
+	font-family:Noto;
+}
+	
+th{ 
+	border:2px solid white;
+	border-collapse:collapse;
+	font-size:20px
+}
+	
+td{ border:2px solid white;
+	border-collapse:collapse;
+	font-family: Verdana;
+	font-size:15px
+}
+
+@font-face {
+	font-family: myFont;
+	src: url(../font/pacifico.woff) 
+}
+.combo5{
+	font-family: Trebuchet;
+	font-size:30px
+}
+.combo6{
+	font-family: Comic Sans MS;
+	font-size:20px
+}
+.combo7{
+	margin:5% 8%;
+	float:right;
+	width:37%;
+}
+#combo8{
+	color:white;
+	text-decoration:none;
+}
+.combo9{
+	text-align:left;
+}
+h2{
+	font-family:Comic Sans MS;
+	font-size:30px;
+	text-align:center;
+}
+#header{
+	 background-color: transparent;
+	 padding: 15px 0px;
+	 transition: 0.4s;
+	 position: fixed;
+	 width: 100%;
+	 top: 0;
+	 color:white;
+	 z-index: 99;
+}
+#bottom{
+	color:white;
+	font-size:15px;
+	text-align:center
+}
+#hi:hover{
+	background: linear-gradient(to right, #f45905, #fb9224, #fbe555);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+#ex:hover{
+	background: linear-gradient(to right, #32ff6a, #27aa80, #226b80);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	}
+#co:hover{
+	background: linear-gradient(to right, #a904af, #ff00ea, #cb005f);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}

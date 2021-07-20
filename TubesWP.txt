@@ -1,0 +1,34 @@
+TUBES PEMOGRAMAN WEB
+Nama Forum : DOPE ("a Technology Forum)
+Templete : 
+	1. layout warna : hitam,abu,putih
+	2. Pembahsan konten :
+		Teknologi:
+			1. Smartphone
+			2. Laptop
+			3. Smartwatch
+			4. PC
+			5. Other tech
+
+	3. Register/login/logout
+	4. Dalam page awal terdapat gambaran atau konsep web, kemudian lanjut login untuk akses lanjut
+
+	Fitur :
+	Threat terbanyak dilihat naik keatas
+	Threat sort by new (HOME PAGE)
+	up vote dan down vote (naikin comment dengan like terbanyak)
+	Home page terdiri dari 5 threat, threat selanjutnya ke halaman selanjutnya
+
+	HALAMAN : 
+	1. Home Page
+		Threat sort by top threat
+		
+	2. Login/Register
+		login seperti biasa untuk akses
+	3. Content (5)
+		1. buat threat
+		2. Comment
+		3. liat comment 
+		4. threat by new
+	4. About Us
+		1. contact

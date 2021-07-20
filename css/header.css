@@ -1,0 +1,23 @@
+.navbar ul li a{
+	transition: 0.4s;
+}
+
+.navbar ul li a:hover{
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border:0px solid #343A40;
+}
+@font-face {
+	font-family: Furore;
+	src: url(../font/Furore.otf);
+}
+@font-face {
+	font-family: Fold;
+	src: url(../font/fold.otf);
+}
+.nav{
+	font-family: Furore;
+}
+.judul{
+	font-family: Furore;
+}

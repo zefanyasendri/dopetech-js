@@ -1,0 +1,16 @@
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: .5em .5em .5em .7em;
+	font-size: 32px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 0em;
+	border-top: 0;
+	overflow: auto;
+}
+#accordion{
+	font-size:20px;
+}

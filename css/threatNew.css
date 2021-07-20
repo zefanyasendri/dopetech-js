@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Furore;
+    src: url(../font/Furore.otf);
+}
+@font-face {
+    font-family: Fold;
+    src: url(../font/fold.otf);
+}
+body{
+    font-size: 16px;
+    font-family: Trebuchet MS;
+    background-image: url("../images/background4.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.judul {
+    font-family: Furore;
+    color: dodgerblue;
+    font-size: 20pt;
+    text-shadow: 2px 2px 5px black;
+}
+#login-box{
+    position: relative;
+    margin:5% auto;
+    height: 400px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+input[type="text"],
+select[name="forum"],
+textarea[name="isi"]{
+    padding: 4px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 10%;
+    width: 220px;
+    font-family: sans-serif;
+    border: 2px solid dodgerblue;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+input[type="submit"]{
+    margin-bottom: 20px;
+    width: 120px;
+    background: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: sans-serif;
+    transition: 0,2s ease;
+    cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+    background: dodgerblue;
+    transition: 0.2s ease;
+}
+.left-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    padding: 0px 40px 0px 40px;
+}
+.right-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding:30px;
+    width: 300px;  
+    height: 400px;
+}
+.right-box .info{
+    display: block;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    margin-top: 10%;
+}
+.info2{
+    display: block;
+    margin-bottom: 5%;
+    text-align: center;
+    border: 2px solid dodgerblue;
+    width: 220px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+}
+.submit {
+    background-color: dodgerblue;
+    text-decoration: none;
+    padding: 3% 18%;
+    font-size: 11pt;
+    border-radius: 5px;
+    font-family: Furore;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+.submit:hover {
+    background-color: black;
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+}

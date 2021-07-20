@@ -1,0 +1,150 @@
+@font-face {
+	font-family: Furore;
+	src: url(../font/Furore.otf);
+}
+@font-face {
+	font-family: Fold;
+	src: url(../font/fold.otf);
+}
+body{
+	background-image: url(../images/laptop.jpg);
+	background-size:cover;
+	font-family: Trebuchet MS;
+	background-attachment:fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100%;
+	color:black;
+}
+.hideExplain{
+	width:98%;
+	padding:1%;
+}
+.menu{
+	background-color:dodgerblue;
+	border-radius:10px;
+	font-family: Furore;
+	color:black;
+	border:0;
+	display:inline-table;
+	margin:2% 25%;
+	font-size:20px;
+	letter-spacing:2px;
+	width:50%;
+	height:50px;
+}
+.menu:hover{
+	background-color:black; 
+	color:dodgerblue;
+	border: 2px solid dodgerblue;
+	cursor:pointer;
+	-webkit-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.kartu {
+	background-color: dodgerblue;
+	transition: 0.2s;
+	border: 2px solid dodgerblue;
+}
+.kartu:hover {
+	background-color: #343A40;
+	color: dodgerblue;
+	border: 2px solid dodgerblue;
+}
+.paragraph {
+	color: #343A40;
+}
+.paragraph:hover {
+	color: dodgerblue;
+}
+.txt1,.txt2,.comp{
+	display:none;
+	width:100%;
+	padding:5%;
+	margin:1%;
+	font-size:15px;
+	margin-left:5%;
+}
+.dev1 {
+	background-color: rgba(30,144,255,0.5);
+	padding-left: 15%;
+	border-radius: 15px;
+}
+.dev2{
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 15%;
+	border-radius: 15px;
+}
+.devsatu{
+	color: black;
+}
+.devdua{
+	color: dodgerblue;
+}
+.perusahaan {
+	background-color: rgba(0,0,0,0.9);
+}
+.comp_color {
+	color: dodgerblue;
+}
+.sejarah {
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 10px;
+	font-size: 20px;
+	color: dodgerblue;
+}
+.vimi {
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 10px;
+}
+.vimi_color {
+	color: dodgerblue;
+}
+.ukuran {
+	width: 800px;
+	height: 500px;
+	border-radius: 10px;
+}
+.carousel-caption {
+	background-color: rgba(30,144,255,0.7);
+	border-radius: 10px;
+	color: white;
+}
+.tulisan {
+	color: white;
+}
+.kegiatan {
+	font-family: Furore;
+	color: dodgerblue;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#sticky{
+	position: fixed;
+ 	left: 0;
+ 	bottom : 60%;
+ 	width:10%;
+ 	color:black;
+  	border:2px solid dodgerblue;
+  	background-color : dodgerblue;
+  	border-radius : 50px 50px 20px 20px;
+  	transform: rotate(90deg) translateY(160%);;
+  	padding-left:10px;
+  	transition: 0.4s;
+}
+#sticky:hover{
+	font-size:20px;
+	position: fixed;
+ 	left: 0;
+ 	bottom : 60%;
+ 	width:15%;
+ 	color: dodgerblue;
+  	border:3px solid dodgerblue;
+  	background-color : black;
+  	border-radius : 50px 50px 20px 20px;
+  	transform: rotate(90deg) translateY(125%);;
+  	padding-left:30px;
+}
