@@ -10,4 +10,5 @@
 ## Notes : 
 DopeTech is a network of communities website where people can dive into their interests, hobbies and passions. <br>
 **Framework** : Bootstrap 4 <br>
-**Nama DB** : tubes.sql
+**Nama DB** : tubes.sql <br>
+<p class="footer-bottom-text">Copyright &copy; 2020 DOPEtech. All Rights Reserved</p>
